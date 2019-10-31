@@ -21,6 +21,10 @@ The environment variables are:
 
 The program with watch acme.json for changes and generate certficates and certfiacte chains with the names `domain.crt` and `domain.chain.crt` repsectively.
 
+## Fork info
+
+Forked by Jeff Higgins to support the new acme json format in Traefik v2
+
 ## Copyright
 
 2018 Thom Seddon
