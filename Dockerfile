@@ -1,4 +1,6 @@
+## registry.higgy.ca/jeffhiggy/traefik-certs:latest
 FROM golang:1.10-alpine as builder
+LABEL maintainer="Jeff Higgins <jeff@higgy.ca>"
 
 # Setup
 RUN mkdir /app

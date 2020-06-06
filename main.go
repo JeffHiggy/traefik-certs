@@ -113,7 +113,8 @@ func buildCerts() {
 
 			if !findDomain(domain, resolver.Certificates) {
 				fmt.Println("Removing file", f.Name())
-				os.Remove(fmt.Sprintf("%s/%s", certPath, f.Name()))
+				//I'm going to temporarily disable this due to issues
+				// os.Remove(fmt.Sprintf("%s/%s", certPath, f.Name()))
 			}
 		}
 	}
